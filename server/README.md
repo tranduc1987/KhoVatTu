@@ -5,8 +5,17 @@
 ```bash
 cd server
 npm install
+cp .env.example .env
 npm run dev
 ```
+
+## Biến môi trường
+
+| Tên | Mô tả |
+| --- | --- |
+| `PORT` | Cổng backend (mặc định 4000) |
+| `JWT_SECRET` | Khoá ký JWT |
+| `CORS_ORIGIN` | Danh sách origin frontend, phân tách bằng dấu phẩy |
 
 ## Tài khoản mặc định
 
